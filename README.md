@@ -84,59 +84,68 @@ Each Loan Detail might require one or multiple Loan Collaterals depending on the
 
 
 # Ten Queries
-![image](https://github.com/emilycoffieldd/MIST-4610-Project/assets/148081148/dd1b29a1-80c9-4052-b57c-d0f37cff5b80)
+![image](https://github.com/emilycoffieldd/MIST-4610-Project/assets/148081148/0d2aa501-3d76-4b7c-b187-21438407ff34)
 
-Query 1 lists the name of the loan seekers and a description of their business ventures. The query is useful for managers to see the trend of upcoming business ventures and study their user information.
 
-Query:
-
-![image](https://github.com/emilycoffieldd/MIST-4610-Project/assets/148081148/c538b62b-a099-4144-8d8b-4e1c3be68a83)
-
-Response:
-
-![image](https://github.com/emilycoffieldd/MIST-4610-Project/assets/148081148/dcb66bb0-db53-457c-8905-da0d7152a5c7)
-
-Query 2 lists the audit log ID and changes made grouped by each employee that has written it. The query allows the managers to track which employee is responsible for which audit logs in case there is an instance when additional information is needed from the employee who wrote it. 
+Query 1 lists the name of the loan seekers and a description of their business ventures. The query is useful for managers to see the trend of upcoming business ventures and study their user information. This procedure can be called using a given loan number.
 
 Query:
 
-![image](https://github.com/emilycoffieldd/MIST-4610-Project/assets/148081148/61f9d9b6-8c53-4e7b-87ba-57c98c571907)
+![image](https://github.com/emilycoffieldd/MIST-4610-Project/assets/148081148/ce3b09b8-6a6b-4913-81cb-9a32baac950a)
+
 
 Response:
 
-![image](https://github.com/emilycoffieldd/MIST-4610-Project/assets/148081148/4274486d-67e2-46b7-8cfb-f04348600aa8)
+![image](https://github.com/emilycoffieldd/MIST-4610-Project/assets/148081148/b4922ab5-86b9-4846-8659-f483492a82f7)
 
 
-Query 3 lists all types of loans including their descriptions, typical loan range, and standard interest rates. Managers can view the basic, necessary information about the loans for both loan seekers and guarantors. 
+Query 2 lists the audit log ID and changes made grouped by each employee that has written it. The query allows the managers to track which employee is responsible for which audit logs in case there is an instance when additional information is needed from the employee who wrote it. Be sure to disclose the Loan seeker's name.
 
 Query:
 
-![image](https://github.com/emilycoffieldd/MIST-4610-Project/assets/148081148/9f85a8ed-1bcf-47a5-bf30-45b525ac112d)
+![image](https://github.com/emilycoffieldd/MIST-4610-Project/assets/148081148/a2f0d1cd-82e9-4c5a-be2f-eab9a7cbf677)
+
 
 Response:
 
-![image](https://github.com/emilycoffieldd/MIST-4610-Project/assets/148081148/4390365e-a457-427f-bfb0-0c72505c9078)
+![image](https://github.com/emilycoffieldd/MIST-4610-Project/assets/148081148/1ff82eeb-c498-4a9c-9257-e77727c3b935)
 
-Query 4 lists the loan’s next due date and repaid amount for every loan seeker from the highest to lowest repaid amount order where the seeker has an overdue amount and a repayment amount higher than $1500. Managers can track the loan seekers who require more attention since these are the loan seekers who have a high repayment amount and an overdue amount. 
+
+
+Query 3 lists all types of loans including their descriptions, typical loan range, and standard interest rates. Managers can view the basic, necessary information about the loans for both loan seekers and guarantors. This procedure requires a loan seeker name to be called.
 
 Query:
 
-![image](https://github.com/emilycoffieldd/MIST-4610-Project/assets/148081148/72873c56-637a-4f79-b6eb-22a79a07d707)
+![image](https://github.com/emilycoffieldd/MIST-4610-Project/assets/148081148/ac65adb2-74d9-4245-aecb-50d16926eb9e)
+
 
 Response:
 
-![image](https://github.com/emilycoffieldd/MIST-4610-Project/assets/148081148/516a5eeb-502f-4b1b-b9ea-6bd4be7ae4f3)
+![image](https://github.com/emilycoffieldd/MIST-4610-Project/assets/148081148/94b4b4d5-e877-4cbb-a04d-e4554e5e5d3d)
+
+
+Query 4 lists the loan’s next due date and repaid amount for every loan seeker from the highest to lowest repaid amount order where the seeker has an overdue amount and a repayment amount higher than $1500. Managers can track the loan seekers who require more attention since these are the loan seekers who have a high repayment amount and an overdue amount. This procedure runs with the name of the loan seeker.
+
+Query:
+
+![image](https://github.com/emilycoffieldd/MIST-4610-Project/assets/148081148/8b90958f-c694-427a-8b31-d14eba79c3f8)
+
+Response:
+
+![image](https://github.com/emilycoffieldd/MIST-4610-Project/assets/148081148/94f27c68-d127-49b3-a602-5e31499f6cdd)
 
 Query 5 list the names/contacts of staff members - either CEO or CFO -  managing any loan within a Medical intention,
 making it useful for managers to track the directory of staff members that are associated with the medical field (who may want to assign these staff members to specific trainings).
 
 Query: 
 
-![image](https://github.com/emilycoffieldd/MIST-4610-Project/assets/148081148/6fa9ba91-1b89-4a72-acae-1d1c93938d7e)
+![image](https://github.com/emilycoffieldd/MIST-4610-Project/assets/148081148/39276095-713b-42ee-b005-0243761b5dac)
+
 
 Response:
 
-![image](https://github.com/emilycoffieldd/MIST-4610-Project/assets/148081148/6321a25d-fb8c-4cbf-ab17-1776eece9537)
+![image](https://github.com/emilycoffieldd/MIST-4610-Project/assets/148081148/c536ecef-73d6-4455-8372-8b6c946b4ccf)
+
 
 Query 6 returns the name of all LoanSeekers along with their phone number and residential details, so it is a quick way for managers to access the directory for LoanSeekers (useful in the process of follow-up, mailing news, etc.)
 
@@ -182,15 +191,16 @@ Response:
 
 ![image](https://github.com/emilycoffieldd/MIST-4610-Project/assets/148081148/c7128472-8c6e-4314-862f-07d0925a143f)
 
-Query 10 lists loan seekers who are looking for a loan renewal along with their loan renewal reason and the requested renewal amount. The query is useful for managers because it allows them to view all the loan seekers who are looking for loan renewals and assess whether rewriting of the existing loan agreement is necessary.
+Query 10 lists loan seekers who are looking for a loan renewal along with their loan renewal reason and the requested renewal amount. The query is useful for managers because it allows them to view all the loan seekers who are looking for loan renewals and assess whether rewriting of the existing loan agreement is necessary. This procedure relies on the name of the loan seeker to run.
 
 Query:
 
-![image](https://github.com/emilycoffieldd/MIST-4610-Project/assets/148081148/d4da8fad-d1d3-43d6-a8c9-972db43a64af)
+![image](https://github.com/emilycoffieldd/MIST-4610-Project/assets/148081148/411a4578-4f2e-4623-8372-7b1123d59bde)
+
 
 Response:
 
-![image](https://github.com/emilycoffieldd/MIST-4610-Project/assets/148081148/df1e06ce-791f-421d-84fd-74809c70d8af)
+![image](https://github.com/emilycoffieldd/MIST-4610-Project/assets/148081148/795059a3-65f8-448a-87e1-124c8d89ecde)
 
 
 # Database Information
